@@ -4,6 +4,7 @@
   padding: 10;
   border: 10;
 }
+
 header {
   background-color: #516aa8;
   display: flex;
@@ -12,6 +13,20 @@ header {
   align-items: center;
   flex-wrap: nowrap;
   padding: 10px 20px;
+}
+.second-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d09d72;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+label span {
+  display: inline-block;
+  margin-left: 73%;
 }
 p {
   text-align: right;
@@ -22,9 +37,6 @@ main {
 section p {
   margin: 0;
   margin-top: -10px;
-}
-h2 {
-  text-align: end;
 }
 .comprados {
   background-color: coral;
